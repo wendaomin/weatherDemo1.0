@@ -2,12 +2,11 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
-import Home from './component/Home'
-import Weather from './component/weather/Weather'
-import './assets/css/global.css'
+import Home from '../component/Home'
+import Weather from '../component/weather/Weather'
+import '../assets/css/global.css'
 export default function BasicExample() {
   return (
     <Router>
