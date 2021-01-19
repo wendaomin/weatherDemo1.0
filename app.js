@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(cors())
 require('./routes/weather.js')(app)
 //监听端口
-app.listen(3000, async (req, res) => {
+app.listen(3003, async (req, res) => {
   console.log('服务器已经启动！')
-  console.log("http://localhost:3000");
+  console.log("http://localhost:3003");
 });
