@@ -1,6 +1,6 @@
 import axios from 'axios'
 const http = axios.create({
-  baseURL: 'http://localhost:3000/weather/api',
+  baseURL: 'http://localhost:3003/weather/api',
   timeout: 20 * 1000, // Timeout
 })
 // http.interceptors.request.use(
