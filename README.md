@@ -6,7 +6,7 @@
 
 2.  进入该项目工作区   **npm i**   下载npm包
 3.  **nodemon app**    启动该项目 
-4. 成功提示：服务器已经启动  http://localhost:3000
+4. 成功提示：服务器已经启动  http://localhost:3003
 
 
 
