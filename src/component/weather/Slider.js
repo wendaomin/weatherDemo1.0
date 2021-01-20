@@ -2,6 +2,7 @@ import React from 'react'
 import SliderArrow from "./SliderArrow";
 import $ from 'jquery'
 import Describe from './Describe'
+import DescribeSecond from './DescribeSecond'
 export default class Slider extends React.Component {
     constructor(props) {
         super(props);
@@ -72,7 +73,7 @@ export default class Slider extends React.Component {
                         })
                        
                     }
-                    <Describe key={0} item = {this.props.items[0]} index = {0}/>
+                    <DescribeSecond key={0} item = {this.props.items[0]} index = {0}/>
                 </div>
                 {
                     arrowNodes
